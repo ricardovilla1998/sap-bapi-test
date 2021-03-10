@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { FicEjecutaBapi } from './FicEjecutaBapi.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FicEjecutaBapi />
   </React.StrictMode>,
   document.getElementById('root')
 );
